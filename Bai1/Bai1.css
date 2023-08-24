@@ -1,0 +1,22 @@
+table,th,td,tr{
+    /* khung vieenf */
+    border: 1px solid; 
+    /* mau chu */
+    color: red;
+    /* background-color: white; */
+    /* canw giua */
+    text-align: center;
+    /* xóa khung viền */
+   border-collapse: collapse;
+   margin: auto;
+   text-align: center;
+}
+.mauxanh{
+    background-color: green;
+}
+.mauhong{
+    background-color: pink;
+}
+#mauvang{
+    background-color: yellow;
+}

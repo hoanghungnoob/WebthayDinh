@@ -1,0 +1,56 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the top-level menu items */
+.menu li {
+    display: inline-block;
+    position: relative;
+    background-color: #333;
+}
+
+.menu li a {
+    
+    text-decoration: none;
+    font-size: 100px;
+}
+
+/* Style the submenus */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    border-top: 1px solid #666;
+    z-index: 1;
+    left: 0;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    width: 200px;
+    display: block;
+    padding: 10px;
+}
+
+.submenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu .submenu {
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+.submenu li:hover .submenu {
+    display: block;
+    top: 0;
+    left: 0;
+}

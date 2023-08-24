@@ -1,0 +1,43 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+    position: relative;
+}
+.first-head{
+    display: flex;   
+    justify-content: center;
+    
+    box-sizing: border-box;
+    background-color: wheat;
+    padding-top: 10px;
+}
+.img1 img{
+    margin: 0 10px;
+    /* padding-left: 10px; */
+    border-radius: 10px;  
+}
+
+.content1{
+    margin-top: -8px;
+}
+
+/* navbar */
+/* tat gach chan */
+nav div ul li a{
+    color: orange;
+    text-decoration: none;
+    
+}
+.link ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+nav{
+    position: absolute;
+    top :0px;
+    left: 250px;
+}

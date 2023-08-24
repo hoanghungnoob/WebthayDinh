@@ -1,0 +1,60 @@
+
+ul, li {
+    /* bỏ dấu . trước */
+    list-style: none;
+    /* đưa về phía góc */
+    padding: 0px;
+    margin: 0;
+}
+/* màu sắc cho menu */
+.menu {
+    background-color:chocolate;
+    display: flex;
+}
+
+.menu li:hover{
+    background-color: yellow;
+    padding: auto;
+    /*bo góc cho thuộc tính hover  */
+    border-radius: 10px;
+}
+.menu > li > a {
+    color: #fff;
+    text-decoration: none;
+    /* padding 10px là chiều cao 20px là chiều rộng khoảng cách */
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li:hover > .submenu {
+    display: block;
+    padding: auto;
+    background-color: green ;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+/* css cho menu con */
+.submenu a {
+    color: white;
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+}
+
+/* menucon day sang phai */
+.submenu li:hover > .submenu {
+    left: 100%;
+    top: 50%;
+
+} 
