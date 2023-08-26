@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    height: 350px;
+    width: 400px;
+    background-color: whitesmoke;
+    
+}
+.row{
+    display: flex;
+    padding-top: 10px;
+    height: 40px;
+    grid-template-columns: 30% 70%;
+    
+    box-sizing: border-box;
+    position: relative;
+}
+.left{
+    width: 150px;   
+    background: #ddd;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    
+}
+.right{
+
+    width: 250px;
+    background: #ddd;
+    display: flex;
+    border: 0.1px solid;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-right: -8px;
+    box-sizing: border-box; 
+    position: relative;
+}
+.icon{
+    height: 29px;
+    width: 40px;
+    border-right: 1px solid;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 14px;  
+    background-color: whitesmoke;
+    border-bottom: 0.9px solid;
+    
+} 
+.input{
+    height: 29px;
+    padding-top: 4px;
+    box-sizing: border-box;
+   
+    
+} 
+.input1{
+    display: flex;
+    
+} 
+input{
+    margin-top: -5px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 10px;
+    height: 28px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    
+}
+select{
+    position: absolute;
+    height: 29px;
+    width: 20px;
+    right: 0px;
+}
+.p{
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 3.75px;
+
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.submit{
+    display: flex;
+    border-radius: 1px;
+    background-color: red;
+    height: 30px;
+    width: 85px;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+
+.fa-telegram{
+    padding-top: 1px;
+    padding-left: -2px;
+    box-sizing: border-box;
+    
+}
+.submit{
+    padding: 5px 5px;
+    box-sizing: border-box;
+    
+}

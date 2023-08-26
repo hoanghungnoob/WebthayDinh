@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background-color: bisque;
+    height: 800px;
+    width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 40px;
+    
+    height: 600px;
+    width: 450px;
+    background-color: aliceblue;
+}
+form div{
+    color: greenyellow;
+    font-size: 22px ;
+    font-weight: 800;
+}
+.row{
+    display: flex;
+    border: 1px solid;
+    height: 40px;
+width: 350px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.icon{
+    border-right:  1px solid;
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 3px;
+    box-sizing: border-box;
+ 
+}
+.input{
+    margin-left: 10px;
+}
+input{
+    height: 39px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-right: 133px;
+}
+.date-gender,
+.date-of-birth,
+.gender-item{
+    display: flex;
+}
+.box-date{
+    height: 30px;
+    width: 43px;
+    padding: 0 10px;
+    padding-left: 5px; 
+    margin-left: 3px;
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.gender{
+    margin-left: 20px;
+}
+.gender-item{
+    border: 0.5px solid;
+}
+.gender-item input{
+    padding: 0;
+    margin: 0;   
+    height: 30px;
+    width: 65px;
+    
+    
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .first-element{
+            display: flex;
+        }
+        .input1{
+            background-color: aqua;
+            height: 20px;
+            margin-top: 15px;
+            border: none;
+        }
+        .input2{
+            width: 60px;
+        }
+        .submit{
+            background-color: red;
+            color: white;
+            width: 70px;
+            border: 4px solid black;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <p>này là dùng text để tạo cái để điền</p>
+        <div class="first-element">
+            <p>first-name:</p>
+            <input class="input1" type="text" name="first-name" placeholder="First-name">
+        </div>
+        <p>---------------------------------------------------</p>
+        <p>what would you like (này là dùng thuộc tính radio)</p>
+        <div class="second-element">
+            <input class="input2" type="radio" name="sex" value="coffee" >coffee 
+            <p></p>
+            <input class="input2" type="radio" name="sex" value="Tea" checked>Tea
+        </div>
+        <p>---------------------------------------------------</p>
+        <p>Này là dùng thuộc tính check box của <b>input</b> </p>
+        <p>Sở thích của bạn là gì?</p>
+        <div class="third-element">
+            <input type="checkbox" name="Swim" value="Swiming" >Swim <br>
+            <input type="checkbox" name="bike" value="Biking">Biking <br>
+            <input type="checkbox" name="clim" value="climing">Climming <br>
+        </div>
+        <p>---------------------------------------------------</p>
+        <p> này là nút Submit nè</p>
+        <div class="fourth-element">
+            <input class="submit" type="submit" name="Submit" value="Submit">
+        </div>
+        <p>Này là Text area tag.</p>
+        <div class="fiveth-element">
+            <textarea name="comment" id="" cols="30" rows="10">Hello everyone my name is Hung from class PNV25B </textarea>
+        </div>
+        <p>tiếp theo là thẻ  select với thẻ con là option</p>
+        <div class="six-element">
+            <select name="Gender" id="">
+                <option value=""></option>
+                <option value="girl">Girl</option>
+                <option value="boy">Boy</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

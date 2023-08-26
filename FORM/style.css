@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 204, 204);
+}
+form{
+    background-color: rgb(227, 233, 233);
+    border: 1px  black;
+    width: 400px;
+    height : 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 18, 19);
+}
+
+.first-name,
+.seconed-name,
+.phone,
+.email,
+.password, 
+.gender, 
+.form-box{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    height: 24px;   
+    background-color: beige;
+    border: none;
+}
+
+
+.icon{
+   padding: 5px 5px 5px 7px;
+    box-sizing: border-box;
+    background-color:orangered;
+    height: 26px;
+    width: 26px;
+}
+.form-box{
+    padding-top: 13px;
+    margin-left: 5px;
+}
+p{
+    height: 26px;
+    width: 110px;
+    background-color: azure;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-top: 13px;
+}
+.check-box{
+    padding-top: 5px;
+    box-sizing: border-box;
+}
