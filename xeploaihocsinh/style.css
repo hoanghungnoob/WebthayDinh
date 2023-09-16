@@ -1,0 +1,13 @@
+form{
+    width: 500px;
+}
+select{
+    width: 50px;
+    color: red;
+}
+input{
+    border: 1px solid;
+}
+h2{
+    height: 40px;
+}
