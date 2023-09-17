@@ -54,8 +54,6 @@ function myFunction(){
     else{
         document.getElementById("show").innerHTML="Bạn chưa chọn sở thích hoặc vai trò!";
         document.getElementById("show").style.color="red";
-        let element=document.getElementById("show");
-        element.style.fontSize= "44";
     }
 
 
