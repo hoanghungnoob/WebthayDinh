@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test function</title>
+    <style>
+        .color-trafic{
+        text-align: center;
+    }
+    img{
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="traffic-light">
+        <button onclick="changecolorred()">Red</button>
+        <button onclick="changecolorgreen()">Green</button>
+        <button onclick="changecoloryellow()">Yellow</button>
+    </div>
+    <!-- <button id="red"></button> -->
+    <img src="green.png" alt="" id="color"> 
+
+    <script>
+        function changecolorred(){  
+           change = document.getElementById("color").src="red.png";
+            return change;
+        }
+        function changecolorgreen(){  
+            change = document.getElementById("color").src="green.png";
+            return changecolorred;
+        }
+        function changecoloryellow(){  
+            change = document.getElementById("color").src="yellow.png";
+            return changecolorred;
+        }
+    </script>
+</body>
+</html>

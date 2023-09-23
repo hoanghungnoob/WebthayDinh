@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dien tich hinh vuong</title>
+    <style>
+        .Option{
+            height: 80px;
+            width: 800px;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .Option div{
+            padding-top: 10px;
+        }
+        button{
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            
+        }
+        button:hover{
+            background-color: palevioletred;
+          
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="Option">
+        <p>mời bạn chọn option</p>
+        <div>
+            <button onclick="dientichhcn()">Dien Tich Hinh Chu Nhat</button>
+            <p id="hcn">dien tich hinh chu nhat</p>
+        </div>
+        <div>
+            <button onclick="dientichhv()">Dien tich hinh vuong</button>
+            <p id="hv">Dien tich hinh vuong</p>
+        </div>
+        <div>
+            <button onclick="hello()">Hello</button>
+            <p id="hello">Helo</p>
+        </div>
+    </div>
+    <script>
+        function dientichhcn(){
+            var a = prompt("moi ban nhap chieu dai: ");
+            var b =prompt("moi ban nhap chieu rong:")
+
+            if (a>0 && b>0){
+                document.getElementById("hcn").innerHTML = a*b;
+            }
+            else if(a<0||b<0){
+                document.getElementById("hcn").innerHTML ="sai kieu du lieu vif co a hoac b <0"
+            }
+            else{
+                document.getElementById("hcn").innerHTML=("dap an la '0' vi co a =0 hoac b=0")
+            }
+        }
+        function dientichhv(){
+            var a =prompt("moi ban nhap canh hinh vuong");
+            if (a!=0){
+                document.getElementById("hv").innerHTML=a*a;
+            }
+          
+            else{
+                document.getElementById("hv").innerHTML="dien tich hinh vuong = 0";
+            }
+        }
+        function hello(){
+            document.getElementById("hello").innerHTML= "Welcome to PNV: My name is Teo";
+        }
+    </script>
+</body>
+</html>

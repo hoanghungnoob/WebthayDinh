@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiem tra so</title>
+</head>
+<body>
+    <p>tao vi du su dung input</p>
+    <input id="input" name="hh" type="number">
+    <p>tao nut lay gia tri cua the input</p>
+    <button onclick="myFunction()">Nhap vao day</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            var number = document.querySelector("input[name='hh']").value;
+            var greeting;
+            if(number>0){
+                greeting="day la so duong";
+                document.getElementById("demo").style.backgroundImage=Image("")
+            }
+            else if (number==0){
+                greeting="ban duoc 0 diem";
+            }
+            else{
+                greeting="day la so am";
+            }
+            document.getElementById("demo").innerHTML=greeting;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        form{
+            width: 500px;
+            height: 150px;
+            background-color: aqua;
+            justify-self: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <div class="d-flex">
+            <div class="col-2">Input:</div>
+            <input type="number" id="input" class="col-9" placeholder="nhap so vao day">
+        </div>
+        <div class="d-flex">
+            <div class="col-2">Input:</div>
+            <div class="col-9" id="output"></div>
+        </div>
+        <div class="d-flex pt-3">
+            <input type="button" value="Ok" class="p-1" onclick="myFunction()"></input>
+            <input type="button" name="" id="" value="Cancel" onclick="myFunction1()">
+        </div>
+    </form>
+
+    <script>
+        function myFunction(){
+            let a = document.getElementById("input").value;
+            let y = a%2;
+            switch (y) {
+                case 0:
+                    document.getElementById("output").innerHTML="Day la so chan"
+                    break;
+            
+                default:
+                    document.getElementById("output").innerHTML="Day la so le"
+                    break;
+            }
+            document.getElementById("output").style.opacity=1;
+        }
+        function myFunction1(){
+            document.getElementById("input").value="";
+            document.getElementById("output").style.opacity=0;
+            
+        }
+    </script>
+</body>
+</html>

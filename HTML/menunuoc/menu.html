@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+      <!-- Latest compiled and minified CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        input{
+            height: 30px;
+            font-size: 20px
+        }
+       
+        
+    </style>
+</head>
+<body class=" d-flex ">
+    <div class="title">
+        <h1>Here is a menu Quan's water</h1>
+        <img src="menu.jpg" alt="" style="width: 50%;">
+    </div>
+    <div class="question">
+        <div class="option">
+            <p>moi ban chon nuoc</p>
+            <select name="" id="drink">
+                <option name="select" value=""></option>
+                <option name="select" id="coca" value="">Coca Cola</option>
+                <option name="select" value="">Nước suối</option>
+                <option name="select" value="">7Up</option>
+                <option name="select" value="">Pessi</option>
+                <option name="select" value="cam">Cam ép</option>
+                <option name="select" value="sting">Sting</option>
+                <option name="select" value="huc">Bò Húc</option>
+            </select>
+            <p>Mời bạn chọn trái cây. Nếu không chọn vui lòng bỏ qua</p>
+            <select name="" id="eat">
+                <option value=""></option>
+                <option value="traicaynho">Trái cây nhỏ</option>
+                <option value="traicaylon">Trái cây lón</option>
+                <option value="buoi">Bưởi</option>
+            </select>
+            <p>Vui lòng nhập số tiền bạn có</p>
+            <input type="number" id="money">
+            <input type="button" name="ok" value="Xác nhận" id="ok" onclick="myFunction()"></input>
+        </div>
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="here" class="">here</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
