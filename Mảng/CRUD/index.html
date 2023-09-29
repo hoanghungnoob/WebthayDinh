@@ -72,7 +72,7 @@
                 var n = i ;
                 n++;
                 var amount = arr[i].qty * arr[i].price;
-                var discount =parseInt(amount*0.15);
+                var discount =parseInt(amount*0.15);    
                 var total =amount-discount;
                 html += "<tr>";
                 html += "<td>" + n + "</td>"
@@ -87,6 +87,13 @@
                 html += "</tr>";
             }
             document.getElementById("tbd").innerHTML = html;
+        }
+        function reset(){
+            document.getElementById("name").value="";
+            document.getElementById("id").value="";
+            document.getElementById("proname").value="";
+            document.getElementById("qty").value="";
+            document.getElementById("price").value="";
         }
     </script>
 </body>
