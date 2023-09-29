@@ -1,4 +1,5 @@
 
+
 function myFunction(){
     //kiem tra checkbox
     let check = document.getElementsByName('checkbox');
@@ -56,6 +57,7 @@ function myFunction(){
         document.getElementById("show").style.color="red";
     }
 
-
-
+}
+function cancel(){
+    document.getElementById("show").innerHTML="";
 }

@@ -17,3 +17,9 @@ function sell(){
     row += "</tr>";
     document.getElementById("table").innerHTML +=row;
 }
+function cancel(){
+    document.getElementById('product').value='';
+    document.getElementById('quantity').value='';
+    document.getElementById('price').value='';
+    document.getElementById('discount').value='';
+}
