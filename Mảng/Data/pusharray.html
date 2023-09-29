@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="traicay">
+        <input type="text" placeholder="input value here" id="input">
+        <p id="ketqua"></p>
+        <input type="button" value="ok" onclick="ok()">
+    </div>
+    <script>
+            var array=["cam","oi","xoai","tao","nho","mận"];
+            document.getElementById('ketqua').innerHTML=array;
+        function ok(){
+            var input = document.getElementById("input").value;
+            array.push(input);
+            document.getElementById("ketqua").innerHTML=array;
+
+        }
+
+
+        
+        // var a=["cam","oi","xoai"];
+        // array.push("tao");
+        // array.push("a");
+    // xóa phần tử cuối mảng
+        // array.pop();
+    //thay đổi giá trị
+        // array[1]="bananaa";
+    //thêm vào đầu mảng
+        // array.unshift("tao","nho")
+    //thêm phần tử vào vị trí bất kì vào mảng
+        // array.splice(1,0,"tao","dau")
+
+    //nối 2 mảng
+        // alert(array.concat(a));
+    // hàm slice cắt ra 1 mảng
+        // alert(array.slice(1,2));
+    // hàm sắp xếp mảng
+        // alert(array.sort());
+    // hàm  reverse()đảo ngược mảng
+        // alert(array.reverse());
+
+        // alert(array);
+       
+    </script>
+</body>
+</html>
